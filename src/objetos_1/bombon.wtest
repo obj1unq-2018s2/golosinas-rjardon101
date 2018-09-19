@@ -11,9 +11,9 @@ describe "test de bombon" {
 	}
 	
 	test "mordiscos" {
-		bombon.mordisco()
+		bombon.recibeMordisco()
 		assert.equals(11, bombon.peso())
-		bombon.mordisco()
+		bombon.recibeMordisco()
 		assert.equals(7.8, bombon.peso())
 	}
 	
